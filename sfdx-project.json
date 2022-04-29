@@ -1,0 +1,12 @@
+{
+  "packageDirectories": [
+    {
+      "path": "sfdx-src",
+      "default": true
+    }
+  ],
+  "name": "lcm",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "54.0"
+}
