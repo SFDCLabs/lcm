@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Business Analyst</fullName>
+        <default>false</default>
+        <label>Business Analyst</label>
+    </customValue>
+    <customValue>
+        <fullName>Compliance</fullName>
+        <default>false</default>
+        <label>Compliance</label>
+    </customValue>
+    <customValue>
+        <fullName>Controllership</fullName>
+        <default>false</default>
+        <label>Controllership</label>
+    </customValue>
+    <customValue>
+        <fullName>Payroll</fullName>
+        <default>false</default>
+        <label>Payroll</label>
+    </customValue>
+    <customValue>
+        <fullName>Risk</fullName>
+        <default>false</default>
+        <label>Risk</label>
+    </customValue>
+    <customValue>
+        <fullName>RPA</fullName>
+        <default>false</default>
+        <label>RPA</label>
+    </customValue>
+    <customValue>
+        <fullName>Small Scale Automation</fullName>
+        <default>false</default>
+        <label>Small Scale Automation</label>
+    </customValue>
+    <masterLabel>Team Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

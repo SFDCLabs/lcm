@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Process_Stage_Description__c</fullName>
+    <description>brief description of this process stage name (255 chars)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>brief description of this process stage name (255 chars)</inlineHelpText>
+    <label>Process Stage Description</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>
