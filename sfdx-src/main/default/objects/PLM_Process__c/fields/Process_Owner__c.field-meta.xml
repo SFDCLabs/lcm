@@ -7,7 +7,6 @@
     <inlineHelpText>select the contact who owns this process type</inlineHelpText>
     <label>Process Owner</label>
     <referenceTo>Contact</referenceTo>
-    <relationshipLabel>PLM Process Types</relationshipLabel>
     <relationshipName>PLM_Process_Types</relationshipName>
     <required>false</required>
     <trackTrending>false</trackTrending>

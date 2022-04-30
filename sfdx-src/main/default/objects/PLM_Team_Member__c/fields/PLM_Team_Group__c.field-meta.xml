@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PLM_Team_Group__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>PLM Team Group</label>
+    <referenceTo>PLM_Team_Group__c</referenceTo>
+    <relationshipLabel>PLM Team Members</relationshipLabel>
+    <relationshipName>PLM_TeamGroup2TeamMembers</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
