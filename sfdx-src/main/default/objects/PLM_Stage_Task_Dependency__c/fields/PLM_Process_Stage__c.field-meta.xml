@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PLM_Process_Stage__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>PLM Process Stage</label>
+    <referenceTo>PLM_Process_Stage__c</referenceTo>
+    <relationshipLabel>PLM Stage Task Dependencies</relationshipLabel>
+    <relationshipName>PLM_STD2Stage</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

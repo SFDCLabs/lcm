@@ -12,6 +12,11 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>PLM_Process_Stage__c.PLM_Process__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>PLM_Process_Stage__c.Process_Stage_Description__c</field>
         <readable>false</readable>
@@ -23,18 +28,33 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>PLM_Process_Type__c.Is_Active__c</field>
+        <field>PLM_Process__c.Is_Active__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>PLM_Process_Type__c.Process_Description__c</field>
+        <field>PLM_Process__c.Process_Description__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>PLM_Process_Type__c.Process_Owner__c</field>
+        <field>PLM_Process__c.Process_Owner__c</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>PLM_Stage_Task_Dependency__c.PLM_Process_Stage__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>PLM_Stage_Task_Dependency__c.PLM_Task__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>PLM_Task__c.Is_Active__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -50,6 +70,16 @@
         <editable>false</editable>
         <field>PLM_Team_Member__c.Is_Active__c</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>PLM_Team_Member__c.PLM_Team_Group__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>PLM_Team_Member__c.PLM_Team__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -71,12 +101,24 @@
         <field>PLM_Team__c.PLM_Team_Type__c</field>
         <readable>false</readable>
     </fieldPermissions>
+    <layoutAssignments>
+        <layout>PLM_Process_Stage__c-PLM Process Stage Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PLM_Process__c-PLM Process Type Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PLM_Stage_Task_Dependency__c-PLM Stage Task Dependency Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PLM_Task__c-PLM Task Layout</layout>
+    </layoutAssignments>
     <tabVisibilities>
         <tab>PLM_Process_Stage__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>PLM_Process_Type__c</tab>
+        <tab>PLM_Process__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
