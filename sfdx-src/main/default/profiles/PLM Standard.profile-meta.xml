@@ -208,6 +208,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>PLM_Process__c.PLM_Parent_Process__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>PLM_Process__c.Process_Description__c</field>
         <readable>true</readable>
     </fieldPermissions>
