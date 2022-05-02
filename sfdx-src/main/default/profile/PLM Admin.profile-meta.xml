@@ -23,17 +23,17 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>PLM_Process_Type__c.Is_Active__c</field>
+        <field>PLM_Process__c.Is_Active__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>PLM_Process_Type__c.Process_Description__c</field>
+        <field>PLM_Process__c.Process_Description__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>PLM_Process_Type__c.Process_Owner__c</field>
+        <field>PLM_Process__c.Process_Owner__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -75,7 +75,7 @@
         <layout>PLM_Process_Stage__c-PLM Process Stage Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>PLM_Process_Type__c-PLM Process Type Layout</layout>
+        <layout>PLM_Process__c-PLM Process Type Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>PLM_Team_Group__c-PLM Team Group Layout</layout>
@@ -91,7 +91,7 @@
         <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>PLM_Process_Type__c</tab>
+        <tab>PLM_Process__c</tab>
         <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
