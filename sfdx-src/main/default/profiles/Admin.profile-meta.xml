@@ -2,7 +2,7 @@
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <applicationVisibilities>
         <application>PLM_Admin</application>
-        <default>true</default>
+        <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
     <custom>false</custom>
@@ -22,9 +22,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Event.PLM_Stage_Task_Dependency__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -42,14 +42,14 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>PLM_Dependency_Config__c.Depend_On_PLM_STD__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>PLM_Dependency_Config__c.PLM_STD__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -72,9 +72,9 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>PLM_Process_Stage__c.Sequence__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -92,24 +92,24 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>PLM_Stage_Task_Dependency__c.PLM_Process_Stage__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>PLM_Stage_Task_Dependency__c.PLM_Task__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>PLM_Stage_Task_Dependency__c.Sequence__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>PLM_Task__c.Is_Active__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -127,14 +127,14 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>PLM_Team_Member__c.PLM_Team_Group__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>PLM_Team_Member__c.PLM_Team__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -167,9 +167,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Task.PLM_Stage_Task_Dependency__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -187,19 +187,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
-        <layout>PLM_Dependency_Config__c-PLM Dependency Config Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>PLM_Process_Stage__c-PLM Process Stage Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>PLM_Process__c-PLM Process Type Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>PLM_Stage_Task_Dependency__c-PLM Stage Task Dependency Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>PLM_Task__c-PLM Task Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
