@@ -193,6 +193,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>PLM_Process_Workflow_Rule__c.PLM_Process__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>PLM_Process_Workflow_Rule__c.PLM_Workflow_Rule__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>PLM_Process__c.Is_Active__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -273,6 +283,56 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>PLM_Workflow_Action__c.Action_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>PLM_Workflow_Action__c.Action_Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>PLM_Workflow_Action__c.Description__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>PLM_Workflow_Action__c.Is_Active__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>PLM_Workflow_Action__c.PLM_Stage_Task_Dependency__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>PLM_Workflow_Action__c.PLM_Workflow_Rule__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>PLM_Workflow_Action__c.Payload__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>PLM_Workflow_Action__c.Sequence__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>PLM_Workflow_Rule__c.Description__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>PLM_Workflow_Rule__c.Is_Active__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Task.ActivityDate</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -306,6 +366,12 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>PLM_Process__c-PLM Process Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PLM_Workflow_Action__c-PLM Workflow Action Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PLM_Workflow_Rule__c-PLM Workflow Rule Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -346,6 +412,14 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>PLM_Team__c</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>PLM_Workflow_Action__c</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>PLM_Workflow_Rule__c</tab>
         <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
