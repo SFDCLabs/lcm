@@ -7,59 +7,9 @@
     </applicationVisibilities>
     <custom>true</custom>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>Event.Description</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Event.IsAllDayEvent</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Event.Location</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Event.PLM_Stage_Task_Dependency__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Event.Type</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Event.WhatId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Event.WhoId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>PLM_Dependency_Config__c.Depend_On_PLM_STD__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>PLM_Dependency_Config__c.PLM_STD__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>false</editable>
         <field>PLM_Process_Stage__c.Is_Active__c</field>
         <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>PLM_Process_Stage__c.PLM_Process__c</field>
-        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -70,11 +20,6 @@
         <editable>false</editable>
         <field>PLM_Process_Stage__c.Process_Stage_Owner__c</field>
         <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>PLM_Process_Stage__c.Sequence__c</field>
-        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -92,26 +37,6 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>PLM_Stage_Task_Dependency__c.PLM_Process_Stage__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>PLM_Stage_Task_Dependency__c.PLM_Task__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>PLM_Stage_Task_Dependency__c.Sequence__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>PLM_Task__c.Is_Active__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>false</editable>
         <field>PLM_Team_Group__c.Is_Active__c</field>
         <readable>false</readable>
@@ -125,16 +50,6 @@
         <editable>false</editable>
         <field>PLM_Team_Member__c.Is_Active__c</field>
         <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>PLM_Team_Member__c.PLM_Team_Group__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>PLM_Team_Member__c.PLM_Team__c</field>
-        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -156,39 +71,6 @@
         <field>PLM_Team__c.PLM_Team_Type__c</field>
         <readable>false</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Task.ActivityDate</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Task.Description</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Task.PLM_Stage_Task_Dependency__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Task.Type</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Task.WhatId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Task.WhoId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <layoutAssignments>
-        <layout>PLM_Dependency_Config__c-PLM Dependency Config Layout</layout>
-    </layoutAssignments>
     <layoutAssignments>
         <layout>PLM_Process_Stage__c-PLM Process Stage Layout</layout>
     </layoutAssignments>
@@ -196,10 +78,13 @@
         <layout>PLM_Process__c-PLM Process Type Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>PLM_Stage_Task_Dependency__c-PLM Stage Task Dependency Layout</layout>
+        <layout>PLM_Team_Group__c-PLM Team Group Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>PLM_Task__c-PLM Task Layout</layout>
+        <layout>PLM_Team_Member__c-PLM Team Member Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PLM_Team__c-PLM Team Layout</layout>
     </layoutAssignments>
     <tabVisibilities>
         <tab>PLM_Process_Stage__c</tab>
@@ -228,35 +113,7 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>AddDirectMessageMembers</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>AllowUniversalSearch</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>AllowViewKnowledge</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ApexRestServices</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ApiEnabled</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>AssignTopics</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ChatterEditOwnPost</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ChatterFileLink</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -264,150 +121,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ChatterInviteExternalUsers</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ChatterOwnGroups</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ContentWorkspaces</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ConvertLeads</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>CreateCustomizeFilters</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>CreateCustomizeReports</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>CreateTopics</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>DistributeFromPersWksp</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>EditEvent</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>EditOppLineItemUnitPrice</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>EditTask</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>EditTopics</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>EmailMass</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>EmailSingle</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>EnableCommunityAppLauncher</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>EnableNotifications</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ExportReport</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>FieldServiceAccess</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ImportPersonal</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>LightningConsoleAllowedForUser</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>LightningExperienceUser</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ListEmailSend</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>MassInlineEdit</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>RemoveDirectMessageMembers</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>RunReports</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>SelectFilesFromSalesforce</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>SendExternalEmailAvailable</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>SendSitRequests</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ShowCompanyNameAsUserBadge</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>SubmitMacrosAllowed</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>SubscribeToLightningReports</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>TransactionalEmailSend</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>UseWebLink</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ViewDeveloperName</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ViewHelpLink</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ViewRoles</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ViewSetup</name>
     </userPermissions>
 </Profile>
