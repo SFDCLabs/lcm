@@ -1,18 +1,20 @@
-# Salesforce DX Project: Next Steps
+---
+# This basic template provides core metadata fields for Markdown articles on docs.microsoft.com.
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+# Mandatory fields.
+title: Intent and product brand in a unique string of 43-59 chars including spaces. Do not include site identifier (it is auto-generated).
+description: 115-145 characters including spaces. This abstract displays in the search result.
+author: NO VALUE SET
+ms.author: NO VALUE SET # Microsoft employees only
+ms.date: 5/3/2022
+ms.topic: article-type-from-white-list
+# Use ms.service for services or ms.prod for on-prem products. Remove the # before the relevant field.
+# ms.service: service-name-from-white-list
+# ms.prod: product-name-from-white-list
 
-## How Do You Plan to Deploy Your Changes?
-
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
-
-## Configure Your Salesforce DX Project
-
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
-
-## Read All About It
-
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+# Optional fields. Don't forget to remove # if you need a field.
+# ms.custom: can-be-multiple-comma-separated
+# ms.reviewer: MSFT-alias-of-reviewer
+# manager: MSFT-alias-of-manager-or-PM-counterpart
+---
+# LCM - Life Cycle Manager
